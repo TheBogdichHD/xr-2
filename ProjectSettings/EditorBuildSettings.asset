@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/XRI_Examples/Scenes/Station_02_GrabInteractables_Isolated.unity
+    guid: f2aebe5f993c67044a8fa9b95387de4e
+  - enabled: 0
     path: Assets/XRI_Examples/Scenes/XRI_Examples_Main.unity
     guid: ba755f5a181505a4799b21685d4c7576
   m_configObjects:

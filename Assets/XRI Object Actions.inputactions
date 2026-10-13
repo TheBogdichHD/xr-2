@@ -1,0 +1,57 @@
+{
+    "version": 1,
+    "name": "XRI Object Actions",
+    "maps": [
+        {
+            "name": "XRI Object Actions",
+            "id": "f2d9c0a1-fb06-4613-a514-1294262f644b",
+            "actions": [
+                {
+                    "name": "X Button",
+                    "type": "Button",
+                    "id": "ca60ca2b-f70a-44a6-a54d-46cc32fe2e20",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Y Button",
+                    "type": "Button",
+                    "id": "68394703-5739-4e80-bdf3-8b198294b16e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6e19d170-c8de-4d3c-9a79-b98332c47e80",
+                    "path": "<XRController>{LeftHand}/{PrimaryButton}",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c40dabce-c5c5-41bb-8015-7598aa8960a0",
+                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Y Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
